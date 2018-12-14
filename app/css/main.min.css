@@ -20,7 +20,7 @@
 
 .new-game {
   position: absolute;
-  bottom: -80px;
+  bottom: -50px;
   left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -28,12 +28,12 @@
   padding: 0 2rem;
   color: #fff;
   font-weight: bold;
-  line-height: 2.5rem;
+  line-height: 2rem;
   border: none;
   outline: none;
   background-color: green;
-  -webkit-border-radius: 20px;
-          border-radius: 20px;
+  -webkit-border-radius: 16px;
+          border-radius: 16px;
   cursor: pointer; }
   .new-game:hover {
     opacity: 0.7; }
@@ -54,21 +54,8 @@
 
 .epmty {
   border: none;
-  cursor: default; }
+  cursor: no-drop; }
 
 .dragBone {
   color: green;
   cursor: pointer; }
-
-.winner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-  color: green;
-  font-size: 76px;
-  font-weight: bold; }
